@@ -1,0 +1,11 @@
+---
+ - name: error handling 
+   hosts: webservers
+   tasks: 
+    - name: sai1
+      command: touch /tmp/testing/error1.txt
+      ignore_errors: true
+    - name: sai2
+      command: touch /tmp/error2.txt
+
+
