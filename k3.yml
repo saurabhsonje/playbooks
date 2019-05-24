@@ -1,0 +1,9 @@
+---
+   - hosts: webservers
+     tasks:
+     - command:
+          mkdir /tmp/"{{ item }}"
+       with_items:
+       - j1
+       - k1
+       - l1
