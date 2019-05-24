@@ -1,0 +1,10 @@
+---
+   - hosts: webservers
+     tasks: 
+     - command:
+           mkdir v1
+     - command:
+           mkdir v2
+     - command: 
+           mkdir v3       
+
