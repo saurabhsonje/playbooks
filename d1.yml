@@ -1,0 +1,12 @@
+---
+   - hosts: webservers
+     vars:
+       var1: "hello"
+       var2: "saurabh" 
+     tasks:
+     - copy:
+        dest: /tmp/varible.txt
+        content: "{{ var1 }}"
+     - command: 
+          echo "{{ var2 }}" 
+                  
