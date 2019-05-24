@@ -1,0 +1,8 @@
+---
+   - hosts: webservers
+     vars_prompt:
+       name: var1
+       prompt: enter any value
+     tasks: 
+     - debug: 
+         msg: "{{ var1 }}"
