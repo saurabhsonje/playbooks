@@ -1,0 +1,9 @@
+---
+ - hosts: webservers
+   tasks:
+    - copy:
+       dest: /root/condition.txt
+       content: "hello playbook"
+      when: true  
+
+
