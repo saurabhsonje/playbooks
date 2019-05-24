@@ -1,0 +1,15 @@
+---
+#this is   my first playbook
+    - hosts: webservers
+      tasks:
+       - copy:
+          src: /etc/ansible/playbook/ko
+          dest: /root
+    - hosts: webhost
+      tasks: 
+      - copy:  
+         src:  /etc/ansible/playbook/ko
+         dest: /root
+         owner: saurabh
+         mode: 0664
+         
