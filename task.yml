@@ -1,0 +1,32 @@
+
+    - name: task1
+      command: touch /tmp/{{ var1 }}.txt
+      tags: ntp
+      check_mode: no
+    - name: task2
+      command: touch /tmp/{{ var2 }}.txt
+    - name: task3
+      command: touch /tmp/{{ var3 }}.txt
+    - name: task4
+      command: touch /tmp/{{ var4 }}.txt
+    - name: task5
+      command: touch /tmp/{{ var5 }}.txt
+    - name: task6
+      command: touch /tmp/{{ var6 }}.txt
+    - name: task7
+      command: touch /tmp/{{ var7}}.txt
+    - name: task8
+      command: touch /tmp/{{ var8 }}.txt
+    - name: task9
+      command: touch /tmp/{{ var9 }}.txt
+    - name: task10
+      command: touch /tmp/{{ var10 }}.txt
+    - name: task11
+      command: touch /tmp/{{ var11 }}.txt
+    - name: task12
+      command: touch /tmp/{{ var12 }}.txt
+    - name: task13
+      command: touch /tmp/{{ var13 }}.txt
+    - name: task14
+      command: touch /tmp/{{ var14 }}.txt
+
